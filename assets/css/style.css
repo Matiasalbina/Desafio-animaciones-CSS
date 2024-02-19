@@ -89,7 +89,6 @@ main .card {
     padding: 16px;
 }
 
-/* prueba de zoom */
 .card figure img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in;
@@ -102,7 +101,6 @@ main .card figure img{
     object-fit: cover;
     height: 100%;
 }
-/* area de prueba hacia arriba */
 
 main .card-body {
     padding: 10px;
@@ -132,6 +130,10 @@ main .card-body button {
     border-radius: 10px;
 }
 
+.card-body button:hover {
+    background-color: yellowgreen;
+    color: white;
+}
 footer {
     grid-area: footer;
     display: flex;

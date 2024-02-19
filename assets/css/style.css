@@ -37,6 +37,14 @@
     font-style: normal;
   }
 
+  nav .logo:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    background-color: rgb(95, 20, 110);
+    color: rgb(254, 255, 254);
+    border-radius: 5px;
+  }
+
   nav .logo i {
     font-size: 30px;
   }
@@ -50,7 +58,6 @@
 }
 
 nav ul li {
-    transition: background-color 0.2s ease out;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 3px;
@@ -163,6 +170,35 @@ footer .social-media {
 footer i {
     font-size: 30px;
 }
+
+footer .fa-square-facebook {
+    color: rgb(0, 0, 0);
+}
+footer .fa-square-facebook:hover {
+    color: blue;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in;
+}
+
+footer .fa-square-instagram {
+    color: rgb(0, 0, 0);
+}
+footer .fa-square-instagram:hover {
+    color: rgb(180, 13, 139);
+    transform: scale(1.5);
+    transition: all 0.5s ease-in;
+}
+
+footer .fa-square-youtube {
+    color: rgb(0, 0, 0);
+}
+footer .fa-square-youtube:hover {
+    color: rgb(233, 10, 10);
+    transform: scale(1.5);
+    transition: all 0.5s ease-in;
+}
+
+
 
 footer .location {
     display: flex;
@@ -346,6 +382,15 @@ footer p {
         gap: 10px;
         justify-content: center;
     }
+
+    nav .logo:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in;
+        background-color: rgb(95, 20, 110);
+        color: rgb(254, 255, 254);
+        border-radius: 5px;
+        padding: 5px;
+      }
 
     nav ul {
         gap: 30px;
